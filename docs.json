@@ -5,8 +5,8 @@
   "colors": { "primary": "#1e293b" },
 
   "logo": {
-    "light": "/static/logo.svg",
-    "dark": "/static/logo-dark.svg"
+    "light": "/static/Black.png",
+    "dark": "/static/White.png"
   },
   "favicon": "/static/favicon.ico",
 
