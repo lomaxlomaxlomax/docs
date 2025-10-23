@@ -1,86 +1,57 @@
 {
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
   "name": "BlinkOps Learning Hub",
-  "theme":"maple",
+  "colors": { "primary": "#1e293b" },
+
   "logo": {
     "light": "/static/logo.svg",
     "dark": "/static/logo-dark.svg"
   },
   "favicon": "/static/favicon.ico",
-  "navigation": [
-    {
-      "group": "Start here",
-      "pages": [
-        "index",
-        "getting-started/overview",
-        "getting-started/prerequisites"
-      ]
-    },
-    {
-      "group": "Learning paths",
-      "pages": [
-        {
-          "title": "BlinkOps 101 (videos)",
-          "href": "videos/blinkops-101"
-        },
-        {
-          "title": "SOC Automation",
-          "href": "paths/soc-automation"
-        },
-        {
-          "title": "VM + Tenable",
-          "href": "paths/vuln-management"
-        },
-        {
-          "title": "Cloud Security (Prisma)",
-          "href": "paths/cloud-security"
-        }
-      ]
-    },
-    {
-      "group": "Hands-on labs",
-      "pages": [
-        "labs/first-automation",
-        "labs/tables-basics",
-        "labs/subflows-and-runners"
-      ]
-    },
-    {
-      "group": "Cookbook",
-      "pages": [
-        "cookbook/ai-copilot",
-        "cookbook/webhooks",
-        "cookbook/data-enrichment"
-      ]
-    },
-    {
-      "group": "Troubleshooting",
-      "pages": [
-        "troubleshooting/common-errors",
-        "troubleshooting/faq"
-      ]
-    },
-    {
-      "group": "Changelog",
-      "pages": [
-        "changelog"
-      ]
-    }
-  ],
-  "colors": {
-    "primary": "#1e293b"
-  },
-  "topbarLinks": [
-    {
-      "name": "BlinkOps Docs",
-      "url": "https://docs.blinkops.com"
-    },
-    {
-      "name": "Support",
-      "url": "https://support.blinkops.com"
-    }
-  ],
-  "analytics": {
-    "provider": "",
-    "config": {}
+
+  "navigation": {
+    "pages": ["index", "changelog"],
+    "groups": [
+      {
+        "group": "Start here",
+        "pages": [
+          "getting-started/overview",
+          "getting-started/prerequisites"
+        ]
+      },
+      {
+        "group": "Learning paths",
+        "pages": [
+          "videos/blinkops-101",
+          "paths/soc-automation",
+          "paths/vuln-management",
+          "paths/cloud-security"
+        ]
+      },
+      {
+        "group": "Hands-on labs",
+        "pages": [
+          "labs/first-automation",
+          "labs/tables-basics",
+          "labs/subflows-and-runners"
+        ]
+      },
+      {
+        "group": "Cookbook",
+        "pages": [
+          "cookbook/ai-copilot",
+          "cookbook/webhooks",
+          "cookbook/data-enrichment"
+        ]
+      },
+      {
+        "group": "Troubleshooting",
+        "pages": [
+          "troubleshooting/common-errors",
+          "troubleshooting/faq"
+        ]
+      }
+    ]
   }
 }
