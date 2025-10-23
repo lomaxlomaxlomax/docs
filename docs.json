@@ -1,5 +1,6 @@
 {
   "name": "BlinkOps Learning Hub",
+  "theme":"maple",
   "logo": {
     "light": "/static/logo.svg",
     "dark": "/static/logo-dark.svg"
