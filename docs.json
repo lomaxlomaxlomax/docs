@@ -1,122 +1,85 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "name": "BlinkOps Learning Hub",
+  "logo": {
+    "light": "/static/logo.svg",
+    "dark": "/static/logo-dark.svg"
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
+  "favicon": "/static/favicon.ico",
+  "navigation": [
+    {
+      "group": "Start here",
+      "pages": [
+        "index",
+        "getting-started/overview",
+        "getting-started/prerequisites"
+      ]
+    },
+    {
+      "group": "Learning paths",
+      "pages": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "title": "BlinkOps 101 (videos)",
+          "href": "videos/blinkops-101"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "title": "SOC Automation",
+          "href": "paths/soc-automation"
+        },
+        {
+          "title": "VM + Tenable",
+          "href": "paths/vuln-management"
+        },
+        {
+          "title": "Cloud Security (Prisma)",
+          "href": "paths/cloud-security"
         }
       ]
+    },
+    {
+      "group": "Hands-on labs",
+      "pages": [
+        "labs/first-automation",
+        "labs/tables-basics",
+        "labs/subflows-and-runners"
+      ]
+    },
+    {
+      "group": "Cookbook",
+      "pages": [
+        "cookbook/ai-copilot",
+        "cookbook/webhooks",
+        "cookbook/data-enrichment"
+      ]
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "troubleshooting/common-errors",
+        "troubleshooting/faq"
+      ]
+    },
+    {
+      "group": "Changelog",
+      "pages": [
+        "changelog"
+      ]
     }
+  ],
+  "colors": {
+    "primary": "#1e293b"
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+  "topbarLinks": [
+    {
+      "name": "BlinkOps Docs",
+      "url": "https://docs.blinkops.com"
+    },
+    {
+      "name": "Support",
+      "url": "https://support.blinkops.com"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+  ],
+  "analytics": {
+    "provider": "",
+    "config": {}
   }
 }
