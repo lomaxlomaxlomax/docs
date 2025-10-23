@@ -24,10 +24,18 @@
       {
         "group": "Video Learning",
         "pages": [
-          "/pages/videos/blink-101",
-          "/pages/videos/workflows-101",
-          "/pages/videos/agent-builder-101",
-          "/pages/videos/case-management-101"
+          "/pages/videos/table-of-contents",
+          {
+            "group": "Getting Started",
+            "pages": [
+              "/pages/videos/getting-started/create-a-workflow",
+              "/pages/videos/getting-started/create-a-connection"
+            ]
+          },
+          "/pages/videos/working-with-data",
+          "/pages/videos/logic-and-control",
+          "/pages/videos/advanced-automation",
+          "/pages/videos/optional"
         ]
       },
       {
@@ -60,7 +68,9 @@
     }
   ],
   "colors": {
-    "primary": "#377EF7"
+    "primary": "#377EF7",
+    "light": "#377EF7",
+    "dark": "#377EF7"
   },
   "analytics": {
     "provider": "",

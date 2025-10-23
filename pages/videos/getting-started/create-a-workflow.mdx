@@ -1,0 +1,70 @@
+---
+title: Create a Workflow
+---
+
+Learn two ways to build your first workflow:  
+one using **Builder Copilot** for speed and one by **manually creating** each step.
+
+## Outcomes
+- Build and publish a simple workflow  
+- Use connections and variables safely  
+- Review run logs and troubleshoot issues  
+
+## Prerequisites
+- Blink tenant access  
+- At least one connection configured  
+- Basic JSON familiarity  
+
+<Tabs>
+  <Tab title="Use Builder Copilot">
+
+  <iframe width="600" height="400" src="https://www.youtube.com/embed/Rrz_RBaKSWA?si=Re_E0aPVL0D7PN2J&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+  ### Steps
+  1. Open **Workflows** and click **New**.  
+  2. Choose an **On-demand** trigger for quick testing.  
+  3. Click **Builder Copilot** and describe your goal in one sentence.  
+  4. Review the suggested steps and refine if needed.  
+  5. Add **Connections** to authenticate external calls.  
+  6. Create **Variables** with default values as needed.  
+  7. **Test** the workflow and check **Run logs**.  
+  8. Click **Publish** when ready.
+
+  </Tab>
+
+  <Tab title="Create Manually">
+
+  <Video
+    src="/videos/create-workflow-manual.mp4"
+    title="Create a Workflow Manually"
+    caption="Manually build a workflow step-by-step to learn the structure."
+  />
+
+  ### Steps
+  1. Open **Workflows** and click **New**.  
+  2. Add a **Trigger** (for example, On-demand).  
+  3. Add your first **Action**, such as a transform or HTTP call.  
+  4. Attach a **Connection** for authentication.  
+  5. Define **Variables** to pass data between steps.  
+  6. Add more **Actions** and test each one.  
+  7. View **Run logs** to verify success or catch errors.  
+  8. Click **Publish** when complete.
+
+  </Tab>
+</Tabs>
+
+## Common next steps
+- Read from a **Table** to enrich your data  
+- Add **If** or **Switch** blocks for conditional logic  
+- Convert reusable logic into a **Sub-workflow**
+
+## Troubleshooting
+- **401/403** → Check the connection’s permissions  
+- **Timeouts** → Run from a **Private runner** if needed  
+- **Invalid JSON** → Validate payload structure  
+
+## Related learning
+- [Create a Connection](/videos/create-connection)  
+- [Create a Variable](/videos/create-variable)  
+- [Read from a Table](/videos/read-table)
