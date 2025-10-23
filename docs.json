@@ -17,7 +17,8 @@
         "group": "Start here",
         "pages": [
           "/pages/core/about-blink",
-          "/pages/core/key-concepts"
+          "/pages/core/key-concepts",
+          "/pages/core/key-definitions"
         ]
       },
       {
