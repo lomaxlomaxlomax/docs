@@ -43,7 +43,7 @@
         "pages": [
           "/pages/labs/first-workflow",
           "/pages/labs/tables-and-data",
-          "/pages/labs/agent-mini-project"
+          "labs/agent-mini-project"
         ]
       }
     ]
@@ -59,7 +59,7 @@
     }
   ],
   "colors": {
-    "primary": "#1e293b"
+    "primary": "#377EF7"
   },
   "analytics": {
     "provider": "",
