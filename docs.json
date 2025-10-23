@@ -1,57 +1,68 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
   "name": "BlinkOps Learning Hub",
-  "colors": { "primary": "#1e293b" },
-
+  "theme": "maple",
   "logo": {
-    "light": "/static/Black.png",
-    "dark": "/static/White.png"
+    "light": "/public/static/Black.png",
+    "dark": "/public/static/White.png"
   },
   "favicon": "/static/favicon.ico",
-
   "navigation": {
-    "pages": ["index", "changelog"],
+    "pages": [
+      "index",
+      "changelog"
+    ],
     "groups": [
       {
         "group": "Start here",
         "pages": [
-          "getting-started/overview",
-          "getting-started/prerequisites"
+          "/pages/core/about-blink",
+          "/pages/core/key-concepts"
         ]
       },
       {
-        "group": "Learning paths",
+        "group": "Video Learning",
         "pages": [
-          "videos/blinkops-101",
-          "paths/soc-automation",
-          "paths/vuln-management",
-          "paths/cloud-security"
+          "/pages/videos/blink-101",
+          "/pages/videos/workflows-101",
+          "/pages/videos/agent-builder-101",
+          "/pages/videos/case-management-101"
         ]
       },
       {
-        "group": "Hands-on labs",
+        "group": "Core Concepts",
         "pages": [
-          "labs/first-automation",
-          "labs/tables-basics",
-          "labs/subflows-and-runners"
+          "/pages/workflows/about-workflows",
+          "/pages/platform/about-platform",
+          "/pages/agents/agent-builder",
+          "/pages/case-management/about-case-management"
         ]
       },
       {
-        "group": "Cookbook",
+        "group": "Hands-on Labs",
         "pages": [
-          "cookbook/ai-copilot",
-          "cookbook/webhooks",
-          "cookbook/data-enrichment"
-        ]
-      },
-      {
-        "group": "Troubleshooting",
-        "pages": [
-          "troubleshooting/common-errors",
-          "troubleshooting/faq"
+          "/pages/labs/first-workflow",
+          "/pages/labs/tables-and-data",
+          "/pages/labs/agent-mini-project"
         ]
       }
     ]
+  },
+  "topbarLinks": [
+    {
+      "name": "BlinkOps Docs",
+      "url": "https://docs.blinkops.com"
+    },
+    {
+      "name": "Support",
+      "url": "https://support.blinkops.com"
+    }
+  ],
+  "colors": {
+    "primary": "#1e293b"
+  },
+  "analytics": {
+    "provider": "",
+    "config": {}
   }
 }

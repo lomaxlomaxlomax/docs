@@ -1,9 +1,0 @@
-{
-  "name": "blinkops-learning-hub",
-  "private": true,
-  "scripts": {
-    "dev": "mint dev",
-    "build": "mint build"
-  },
-  "devDependencies": {}
-}
